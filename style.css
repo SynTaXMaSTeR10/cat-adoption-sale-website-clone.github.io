@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color:orange; */
+    font-family: Arial,Helvetica,Verdana,sans-serif;
+}
+.container .head{
+    position: sticky;
+    top: 10;
+    left: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 15px 55px 35px 75px;
+    z-index: 1000000;
+}
+.container .head a{
+    text-decoration:none;
+    color: black;
+    background-color: antiquewhite;
+    padding: 2px 3px 2px 3px;
+    border-radius: 5px;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .box{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    font-size: 47px;
+    width: max-content;
+    color: white;
+    font-family: Angkor;
+    padding: 0px 0px 40px 0px;
+    letter-spacing: 5px;
+}
+.para{
+    background-color: #FF0000;
+    text-align: center;
+    padding: 35px 0px 25px 0px ;
+    font-family: 'Brush Script MT', cursive;
+    color: #FFED4D;
+
+}
+.banner .fit{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.lowercont{
+    padding: 0px 0px 95px 0px;
+    
+}
+.discription{
+    border: 50px;
+    margin: 50px 50px 50px 0px;
+    padding: 30px 0px 30px 30px;
+
+
+}
+.discription .discrpara h3{
+    font-family: 'Courier New', monospace;
+}
+
+/* .discription .discrpara p{
+    border: 50px;
+    margin: auto;
+    padding: 30px 0px 30px 30px;
+} */
+
+.lowercont .parag{
+    position: absolute;
+    background-color: #FF0000;
+    display: inline-grid;
+    text-align: center;
+    align-items: center;
+    padding: 25px 0px 25px 0px;
+    text-decoration-thickness: 10px;
+    letter-spacing: 10px;
+    font-family: serif;
+    font-size: 25px
+}
+.parag{
+    background-color: #FF0000;
+    width: 100%;
+    padding: 25px;
+    color: #FFED4D;
+}
+
+.discription .discrpara{
+    position: relative;
+    padding: 0px 15Px 5px 15px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    
+}
+
+.icons{
+    margin: 80px;
+    position: relative;
+    text-align: center;
+    
+}
+.icons h1{
+    text-decoration: none;
+    color: #6EC1E4;
+
+}
+.icons2{
+    margin: 80px;
+    position: relative;
+    text-align: center;
+
+}
+.icons2 h1{
+    text-decoration: none;
+    color: #6EC1E4;
+
+}
+.icons3{
+    margin: 80px;
+    position: relative;
+    text-align: center;
+
+}
+.icons3 h1{
+    text-decoration: none;
+    color: #6EC1E4;
+
+}
+/* .icons .icon1{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    position: absolute;
+    
+}
+.icons .icon2{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    position: relative;
+   
+}
+.icons .icon3{
+    padding: 0px 10px 10px 10px;
+    text-align: end;
+    position: relative;
+
+} */
+
+.lastcont{
+    background-color: #FF0000;
+    text-align: center;
+    position: relative;
+    border: 2px;
+    margin: auto;
+    padding: 25px;
+    letter-spacing: 10px;
+    font-family: serif;
+    color: #FFED4D;
+   
+}
+.lastcont .lastcontr{
+    position: relative;
+}
+.lastcont .lastcontr h1{
+    text-decoration: solid;
+    font-size: 35px;
+}
+
+.catsec .cat{
+    text-align: center;
+    margin: 10px;
+    border: 10px;
+padding: 0px 60px 0px 60px;
+position: relative;
+}
+
+.catsec .cat h1{
+    text-decoration: solid;
+    color: #FF0000;
+    font-size: 30px;
+    
+}
+
+.photos .catimg1{
+    padding: 20px 30px 25px 105px;
+    position: absolute;
+}
+.photos .catimg2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 20px;
+    position: absolute;
+    padding: 20px 0px 25px 530px;
+}
+.photos .catimg3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    padding: 20px 0px 25px 950px;
+
+    
+}
+/* .photos a{
+   text-decoration: none;
+   background-color: #FF5544;
+   border-radius: 5px;
+   color: white;
+   max-width: 100px;
+   font-size: 20px;
+   line-height: 50px;
+} */
+    
+
+
+/* .photos a{
+    text-decoration: none;
+    background-color: #ff5544;
+    border: 20px;
+    color: white;
+    font-family: sans-serif;
+    
+               min-width: 250px;
+        text-align: center;
+        vertical-align: middle;
+        position: relative;
+        z-index: 1;
+        border-radius: 2px;
+        padding: 15px 45px 0px 550px;
+        font-size: 16px;
+        line-height: 1;
+        align-items: center;
+    } */
+
+    .catsec1 .cat1{
+        text-align: center;
+        margin: 10px;
+        border: 10px;
+    padding: 0px 60px 0px 60px;
+    position: relative;
+    }
+
+    .catsec1 .cat1 h1{
+        text-decoration: solid;
+        color: #FF0000;
+        font-size: 30px;
+        
+    }
+    
+    .photos1 .cat1img1{
+        padding: 20px 30px 25px 105px;
+        position: absolute;
+    }
+    .photos1 .cat1img2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        padding: 20px;
+        position: absolute;
+        padding: 20px 10px 25px 530px;
+    }
+    .photos1 .cat1img3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        padding: 20px 0px 25px 950px;
+    
+        
+    }
+
+    .catsec2 .cat2{
+        text-align: center;
+        margin: 10px;
+        border: 10px;
+    padding: 0px 60px 0px 60px;
+    position: relative;
+    }
+
+    .catsec2 .cat2 h1{
+        text-decoration: solid;
+        color: #FF0000;
+        font-size: 30px;
+        
+    }
+    
+    .photos2 .cat2img1{
+        padding: 20px 30px 25px 105px;
+        position: absolute;
+    }
+    .photos2 .cat2img2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        padding: 20px;
+        position: absolute;
+        padding: 20px 10px 25px 530px;
+    }
+    .photos2 .cat2img3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        padding: 20px 0px 25px 950px;
+    
+        
+    }
+
+    .catsec3 .cat3{
+        text-align: center;
+        margin: 10px;
+        border: 10px;
+    padding: 0px 60px 0px 60px;
+    position: relative;
+    }
+
+    .catsec3 .cat3 h1{
+        text-decoration: solid;
+        color: #FF0000;
+        font-size: 30px;
+        
+    }
+    
+    .photos3 .cat3img1{
+        padding: 20px 30px 25px 105px;
+        position: absolute;
+    }
+    .photos3 .cat3img2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        padding: 20px;
+        position: absolute;
+        padding: 20px 10px 25px 530px;
+    }
+    .photos3 .cat3img3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        padding: 20px 0px 25px 950px;
+    
+        
+    }
+
+    .catsec4 .cat4{
+        text-align: center;
+        margin: 10px;
+        border: 10px;
+    padding: 0px 60px 0px 60px;
+    position: relative;
+    }
+
+    .catsec4 .cat4 h1{
+        text-decoration: solid;
+        color: #FF0000;
+        font-size: 30px;
+        
+    }
+    
+    .photos4 .cat4img1{
+        padding: 20px 30px 25px 105px;
+        position: absolute;
+    }
+    .photos4 .cat4img2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        padding: 20px;
+        position: absolute;
+        padding: 20px 10px 25px 530px;
+    }
+    .photos4 .cat4img3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        padding: 20px 0px 25px 950px;
+    
+        
+    }
+
+    .catsec5 .cat5{
+        text-align: center;
+        margin: 10px;
+        border: 10px;
+    padding: 0px 60px 0px 60px;
+    position: relative;
+    }
+
+    .catsec5 .cat5 h1{
+        text-decoration: solid;
+        color: #FF0000;
+        font-size: 30px;
+        
+    }
+    
+    .photos5 .cat5img1{
+        padding: 20px 30px 25px 105px;
+        position: absolute;
+    }
+    .photos5 .cat5img2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        padding: 20px;
+        position: absolute;
+        padding: 20px 10px 25px 530px;
+    }
+    .photos5 .cat5img3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        padding: 20px 0px 25px 950px;
+    
+        
+    }
+
+    .catsec6 .cat6{
+        text-align: center;
+        margin: 10px;
+        border: 10px;
+    padding: 0px 60px 0px 60px;
+    position: relative;
+    }
+
+    .catsec6 .cat6 h1{
+        text-decoration: solid;
+        color: #FF0000;
+        font-size: 30px;
+        
+    }
+    
+    .photos6 .cat6img1{
+        padding: 20px 30px 25px 105px;
+        position: absolute;
+    }
+    .photos6 .cat6img2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        padding: 20px;
+        position: absolute;
+        padding: 20px 10px 25px 530px;
+    }
+    .photos6 .cat6img3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        max-width: 100%;
+        position: relative;
+        padding: 20px 0px 25px 950px;
+    
+        
+    }
+    .lastline .endline{
+        background-color: #FF0000;
+    }
+
+    .lastline .endline h1{
+        background-color: #FF0000;
+        text-align: center;
+        padding: 15px 0px 25px 0px;
+        font-size: 40px;
+        color: #FFED4D;
+        font-family: serif;
+        letter-spacing: 5px;
+        position: relative;
+    }
+
+    .lastline .endline p{
+        background-color: #FF0000;
+        text-align: center;
+        padding: 20px 0px 15px 0px;
+        margin: 15px;
+        border: 5px;
+        font-size: 20px;
+        color: #FFED4D;
+        font-family: serif;
+        letter-spacing: 5px;
+        position: relative;
+    }
